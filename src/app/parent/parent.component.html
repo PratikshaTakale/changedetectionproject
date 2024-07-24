@@ -1,0 +1,11 @@
+
+
+  <div>
+    <h2>Parent Component</h2>
+    <p>Data: {{ parentData }}</p>
+    <button class="btn btn-info" (click)="updateParentData()">Update Parent Data</button>
+    <p>Service Data: {{ getServiceData() }}</p>
+    <app-child [childData]="parentData"></app-child>
+  </div><hr>
+  
+  
